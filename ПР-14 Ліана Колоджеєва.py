@@ -9,7 +9,7 @@ def fun1(event):
     Window['bg'] = 'aqua'
     Lab = Label(Window, text='Ви натиснули на кнопку №1', font='Times 20', fg='blue')
     Lab.place(x=150, y=150)
-
+    
 def fun2(event):
     Window['bg'] = 'yellow'
     Lab = Label(Window, text='Ви натиснули на кнопку №2', font='Times 20', fg='green')
